@@ -9,6 +9,19 @@ body {
     background: #272b23;
 }
 
+body::after {
+    height: 100%;
+    width: 100%;
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0.4) 1px, transparent 1px, transparent 2px );
+    opacity: 0.3;
+    z-index: 100000;
+    pointer-events: none;
+}
+
 ul > li.nav-item > a.nav-link, ul > li.nav-item.active > a.nav-link {
     color: #14fe17 !important;
 }
