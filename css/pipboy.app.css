@@ -29,12 +29,12 @@ ul > li.nav-item > a.nav-link, ul > li.nav-item.active > a.nav-link {
     padding-bottom: 0;
 }
 
-.navbar {
+.navbar-light {
     border-bottom: 2px solid;
     margin: 0px 10px;
 }
 
-.navbar::before, .navbar::after {
+.navbar-light::before, .navbar-light::after {
     height: 7px;
     width: 2px;
     content: '';
@@ -59,10 +59,6 @@ ul > li.nav-item > a.nav-link, ul > li.nav-item.active > a.nav-link {
     position: relative;
 }
 
-.navbar-nav {
-    width: 100%;
-}
-
 .nav.nav-tabs {
     border-bottom: none;
     margin: 20px;
@@ -83,17 +79,21 @@ ul > li.nav-item > a.nav-link, ul > li.nav-item.active > a.nav-link {
 }
 
 .nav.nav-tabs > li:nth-child(1) > a {
-    opacity: .8;
-}
-
-.nav.nav-tabs > li:nth-child(2) > a {
     opacity: .6;
 }
 
-.nav.nav-tabs > li:nth-child(3) > a {
+.nav.nav-tabs > li:nth-child(2) > a {
     opacity: .4;
 }
 
+.nav.nav-tabs > li:nth-child(3) > a {
+    opacity: .2;
+}
+
+#mainNav {
+    margin-left: 200px;
+    margin-right: 200px;
+}
 
 
 .navbar-light ul.navbar-nav > li.nav-item > .nav-link,
@@ -131,8 +131,24 @@ ul > li.nav-item > a.nav-link, ul > li.nav-item.active > a.nav-link {
 }
 
 .pip-footer {
-    position: fixed;
-    bottom: 0;
-    width: calc(100% - 20px);
+    width: 100%;
     margin: 10px;
+}
+
+.level-progress {
+    height: 10px;
+    border: 2px solid;
+    display: inline-block;
+    width: 70%;
+}
+
+.level-progress-indicator {
+    width:70%;
+    height: 6px;
+    background: #14fe17;
+    position: relative;
+}
+
+.navbar.navbar-light.pip-footer {
+
 }
