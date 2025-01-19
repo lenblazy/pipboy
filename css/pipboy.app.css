@@ -149,6 +149,11 @@ ul > li.nav-item > a.nav-link, ul > li.nav-item.active > a.nav-link {
     position: relative;
 }
 
-.navbar.navbar-light.pip-footer {
+.navbar > .container-fluid > .row > .col-3, .navbar > .container-fluid > .row > .col-6  {
+    background: rgba(16, 255, 0, 0.15);
+}
 
+.navbar > .container-fluid > .row > .col-6  {
+    margin: 0 10px;
+    flex: 0 0 48%;
 }
