@@ -218,6 +218,10 @@ ul > li.nav-item > a.nav-link, ul > li.nav-item.active > a.nav-link {
     width: 90%;
 }
 
+.stat-numbers {
+    margin-top: -50px;
+}
+
 .stat-numbers .col-2, .stat-numbers .col-1 {
     background: rgba(16, 255, 0, 0.15);
     margin-right: 4px;
@@ -228,3 +232,19 @@ ul > li.nav-item > a.nav-link, ul > li.nav-item.active > a.nav-link {
 
 }
 
+.stat-numbers img {
+    width: 100%;
+    filter: grayscale(1) brightness(200) contrast(0) sepia(100%) hue-rotate(55deg) saturate(20);
+}
+
+.stat-numbers img.sm-image {
+    width: 15px;
+}
+
+.stat-numbers img.helmet-icon {
+    padding: 5px;
+}
+
+.spacer-numbers {
+    width: 1000px;
+}
