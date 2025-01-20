@@ -218,5 +218,13 @@ ul > li.nav-item > a.nav-link, ul > li.nav-item.active > a.nav-link {
     width: 90%;
 }
 
+.stat-numbers .col-2, .stat-numbers .col-1 {
+    background: rgba(16, 255, 0, 0.15);
+    margin-right: 4px;
+}
 
+.stat-numbers .col-1.transparent, .stat-numbers .col-2.transparent {
+    background: transparent;
+
+}
 
