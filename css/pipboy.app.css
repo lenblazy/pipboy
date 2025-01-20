@@ -146,6 +146,7 @@ ul > li.nav-item > a.nav-link, ul > li.nav-item.active > a.nav-link {
 .pip-footer {
     width: 100%;
     margin: 10px;
+    font-size: 22px;
 }
 
 .level-progress {
@@ -164,6 +165,7 @@ ul > li.nav-item > a.nav-link, ul > li.nav-item.active > a.nav-link {
 
 .navbar > .container-fluid > .row > .col-3, .navbar > .container-fluid > .row > .col-6  {
     background: rgba(16, 255, 0, 0.15);
+    padding: 10px 20px;
 }
 
 .navbar > .container-fluid > .row > .col-6  {
