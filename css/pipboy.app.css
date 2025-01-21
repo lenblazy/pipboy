@@ -275,3 +275,27 @@ ul > li.nav-item > a.nav-link, ul > li.navbar-item.active > a.nav-link {
     background: #14fe17;
     color: #272b23;
 }
+
+.tab-pane.full {
+    height: calc(100vh - 180px);
+}
+
+.item-stats {
+    position: absolute;
+    right: 10px;
+    bottom: 100px;
+    width: 250px;
+}
+
+.pull-left {
+    float: left !important;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+.item-stats .row .col-12 {
+ background: rgba(16, 255, 0, 0.15);
+    margin-bottom: 2px;
+}
