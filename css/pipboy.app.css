@@ -22,7 +22,7 @@ body::after {
     pointer-events: none;
 }
 
-ul > li.nav-item > a.nav-link, ul > li.nav-item.active > a.nav-link {
+ul > li.nav-item > a.nav-link, ul > li.navbar-item.active > a.nav-link {
     color: #14fe17 !important;
     font-size: 32px;
     line-height: 22px;
@@ -97,7 +97,7 @@ ul > li.nav-item > a.nav-link, ul > li.nav-item.active > a.nav-link {
     margin: auto;
     font-size: 32px;
     line-height: 22px;
-    padding-bottom: 0px;
+    padding-bottom: 0;
     z-index: 50;
     position: relative;
     background: #272b23;
