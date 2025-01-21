@@ -248,3 +248,30 @@ ul > li.nav-item > a.nav-link, ul > li.navbar-item.active > a.nav-link {
 .spacer-numbers {
     width: 1000px;
 }
+
+#status.tab-pane.full {
+    width: 100%;
+    max-width: 100%;
+}
+
+.item-list {
+    float: left;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.item-list li a {
+    display: block;
+    width: 300px;
+    padding: 5px 10px;
+    border-radius: 2px;
+    color: #14fe17;
+    text-decoration: none;
+}
+
+.item-list li a:hover {
+    text-decoration: none;
+    background: #14fe17;
+    color: #272b23;
+}
